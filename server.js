@@ -18,5 +18,3 @@ app.post('/messages', (req, res) => {
 });
 
 io.on('connection', (socket) => console.log('A user has connected.'));
-
-
